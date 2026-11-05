@@ -4,3 +4,10 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+  - package-ecosystem: "npm"
+    directory: "/code/src/AttendeeSite"
+    schedule:
+      interval: "monthly"
+    allow:
+      - dependency-name: "minimist"
+    open-pull-requests-limit: 1
